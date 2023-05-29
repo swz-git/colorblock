@@ -1,0 +1,6 @@
+/target
+/Cargo.lock
+/src/block_table
+/pkg/build/*
+/pkg/dist/colorblock*
+/pkg/node_modules
