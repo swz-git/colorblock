@@ -1,11 +1,6 @@
-use palette::{rgb::Rgb, Srgb};
-use serde::{Deserialize, Serialize, Serializer};
-use std::{
-    fs::{self, read_dir, File, FileType},
-    iter::Sum,
-    ops::{Add, DivAssign},
-    ptr::read,
-};
+use palette::Srgb;
+use serde::{Deserialize, Serialize};
+use std::fs::{self, read_dir};
 
 #[derive(Serialize, Deserialize, Debug)]
 struct Block {
